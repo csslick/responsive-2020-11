@@ -40,10 +40,14 @@ body {
   line-height: 68px;
   z-index: 999;
 }
-#gnb ul { display: inline-block; }
+#gnb ul { 
+  display: inline-block; 
+  outline: 1px solid red;
+}
 #gnb > ul > li {
   display: inline-block;
-  margin-left: 3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 #gnb > ul > li > a {
   display: block;
@@ -85,7 +89,9 @@ body {
   }
   #gnb.show { left: 0;}
 
-  #gnb ul { display: block; }
+  #gnb ul { 
+    display: block; 
+  }
   #gnb ul li {
     display: block;
     margin-left: 0;
@@ -94,7 +100,7 @@ body {
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1000px) {
   #main_header h1 { 
     font-size: 28px;
   }
