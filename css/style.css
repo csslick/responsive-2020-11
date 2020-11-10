@@ -6,6 +6,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 section {
