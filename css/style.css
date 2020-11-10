@@ -96,8 +96,27 @@ h3 {
   margin-bottom: 10px;
 }
 
+.mobile { display: none;}
 /* mobile */
 @media screen and (max-width: 767px) {
+  .mobile { 
+    position: relative;
+    top: 200px;
+    display: block;
+    color: #fff;
+  }
+  #main_visual {
+    /* 화면 높이 100% - 헤더 높이값 */
+    height: calc(100vh - 68px);
+    background: #ccc;
+    background-image: url('http://placeimg.com/1200/500/tech');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #main_visual img {
+    display: none;
+  }
+
   #main_header h1 {
     position: relative;
     text-align: center;
