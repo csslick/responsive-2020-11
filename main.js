@@ -34,7 +34,7 @@ $(function(){
       { src: "http://placeimg.com/1200/400/tech/3" },
     ],
     walk: function (index, slideSettings) {
-      $('h1').html(title[index])
+      $('#main_visual h1').html(title[index])
       console.log("Slide index " + index + " image " + slideSettings.src);
     }
   });
