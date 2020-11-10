@@ -17,3 +17,25 @@ $(function(){
   })
 
 }) // end$
+
+
+// vegas bg slider
+$(function(){
+  var title = [
+    'title 1',
+    'title 2',
+    'title 3'
+  ]
+
+  $("#main_visual").vegas({
+    slides: [
+      { src: "http://placeimg.com/1200/400/tech/1" },
+      { src: "http://placeimg.com/1200/400/tech/2" },
+      { src: "http://placeimg.com/1200/400/tech/3" },
+    ],
+    walk: function (index, slideSettings) {
+      $('h1').html(title[index])
+      console.log("Slide index " + index + " image " + slideSettings.src);
+    }
+  });
+})
