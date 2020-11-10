@@ -9,7 +9,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 /* PC에만 적용 */
@@ -19,7 +19,7 @@
   }
 
   [class*=col_] {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     float: left;
     margin: 0 10px;
   }

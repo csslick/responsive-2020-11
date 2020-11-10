@@ -148,7 +148,7 @@ h3 {
 
   #gnb ul { 
     display: block; 
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding-top: 50px; /* 상단 닫기 버튼 여유 공간 배치*/
   }
   #gnb ul li {
